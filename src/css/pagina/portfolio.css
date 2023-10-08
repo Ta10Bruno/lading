@@ -1,7 +1,7 @@
 .portfolio-bg{
     background-color: black;
     padding: 40px;
-    padding-bottom: 90px;
+    padding-bottom: 130px;
     margin-bottom: 50px;
 }
 
@@ -16,8 +16,19 @@
     color: #FFF;
 }
 
-.port{
+.portfolio .port{
+    margin: 0 auto;
+    align-items: center;
     display: flex;
-    gap:40px
-
+    gap:20px;
 }
+
+.portfolio .swiper{
+    height: 400px;
+    width: 350px;
+}
+
+.swiper-mobile{
+    display: none;
+}
+
