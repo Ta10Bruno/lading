@@ -1,0 +1,22 @@
+.introducao-bg{
+    color: #fff; 
+    height:calc(100vh - 160px);
+    background-image:url(../../img/bg.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-color: black;
+}
+.introducao{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.introducao-conteudo{
+    text-align: left;
+    width: 350px;
+}

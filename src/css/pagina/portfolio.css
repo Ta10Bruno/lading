@@ -1,0 +1,23 @@
+.portfolio-bg{
+    background-color: black;
+    padding: 40px;
+    padding-bottom: 90px;
+    margin-bottom: 50px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap :40px;
+    text-align: center;
+}
+
+.portfolio h2{
+    color: #FFF;
+}
+
+.port{
+    display: flex;
+    gap:40px
+
+}

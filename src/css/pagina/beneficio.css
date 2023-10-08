@@ -1,0 +1,35 @@
+.beneficio{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
+.beneficio h2{
+    margin-bottom: 50px;
+}
+.van{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    gap: 80px;
+    justify-content:center;
+}
+
+.van-2{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    gap: 80px;
+    justify-content:center;
+    margin-bottom: 100px;
+
+}
+
+.beneficio a{
+    margin-top: -150px;
+    background-color: black;
+    color: #fff;
+    padding: 20px 100px;
+    border-radius:50px ;
+}

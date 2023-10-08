@@ -1,0 +1,20 @@
+.footer-bg{
+    background-color: #000;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.footer-img{
+    display: flex;
+    gap: 5px;
+}
+
+.footer-info{
+    color: #fff;
+
+}
