@@ -35,3 +35,17 @@
 .texto-2{
     font: 100 1.25rem "Roboto", sans-serif;
 }
+
+@media (max-width:400px){
+    .texto{
+        font: 400 1.2rem "Roboto", sans-serif;
+    }
+    
+    .texto-2{
+        font: 100 1rem "Roboto", sans-serif;
+    }
+    
+    
+    
+    
+}

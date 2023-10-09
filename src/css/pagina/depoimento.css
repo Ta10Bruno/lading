@@ -20,11 +20,31 @@
 }
 .depoimento-conteudo img{
     margin: 0 auto;
-
 }
 
-.depoimento .swiper{
-    width: 1000px;
-    height: 500px;
-   
+.my-slider{
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.tns-outer{
+    display: flex;
+    flex-direction: row;
+}
+
+.tns-outer [aria-controls]{
+    color: aqua;
+    background-color: aquamarine;
+}
+
+@media (max-width:400px){
+    .depoimento-conteudo{
+        background: radial-gradient(circle at bottom  left ,#D8D8D8 0%, #FCFCFC 100% ) ;
+        border-radius: 10px;
+        font-size: 1.0rem;
+        padding: 10px 10px;
+    }
+
+    
+    
 }

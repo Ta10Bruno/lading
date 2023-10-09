@@ -1,6 +1,6 @@
 .header-bg{
     background-color: #000;
-    height: 160px;
+    height: 140px;
 }
 
 .header{
@@ -9,12 +9,26 @@
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 
 .header-redes{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
 }
+
+@media (max-width:1000px){
+
+    .logo{
+        width: 150px;
+    }
+
+    .header-bg{
+        height: 100px;
+    }
+    
+       
+    }
+    
